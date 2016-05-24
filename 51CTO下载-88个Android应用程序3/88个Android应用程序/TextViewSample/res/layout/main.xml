@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+   <TextView 
+       android:id="@+id/t1"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="我爱java我爱java我爱java我爱java我爱java我爱java我爱java我爱java我爱java我爱java"
+       android:singleLine="true"
+       android:ellipsize="start"/>
+   <TextView
+       android:id="@+id/t2"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:singleLine="true"
+       android:text="我爱java我爱java我爱java我爱java我爱java我爱java我爱java我爱java我爱java我爱java"
+       android:ellipsize="middle"/>
+   <TextView
+       android:id="@+id/t3"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="我爱java我爱java我爱java我爱java我爱java我爱java我爱java我爱java我爱java我爱java"
+       android:singleLine="true"
+       android:ellipsize="end"/>
+   <TextView
+       android:id="@+id/t4"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="我爱java我爱java我爱java我爱java我爱java我爱java我爱java我爱java我爱java我爱java"
+       android:singleLine="true"
+       android:ellipsize="marquee"
+       />
+   <TextView
+       android:id="@+id/t5"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="测试dreamfly@126.com"
+       android:autoLink="email"/>
+   <TextView
+       android:id="@+id/t6"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="测试www.baidu.com"
+       android:autoLink="web"/>
+   <TextView
+       android:id="@+id/t7"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="测试13821366354"
+       android:autoLink="phone"
+       />
+</LinearLayout>

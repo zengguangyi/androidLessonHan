@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<TableRow>
+	    <TextView 
+	        android:id="@+id/user"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="用户名:"
+	        android:background="@drawable/bg_border"/>
+	    <EditText
+	        android:id="@+id/userText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="请输入用户名"
+	        android:selectAllOnFocus="true"
+	         android:background="@drawable/bg_border"/>
+	 </TableRow>
+<TableRow>
+	    <TextView 
+	        android:id="@+id/pwd"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="密码:"
+	         android:background="@drawable/bg_border"/>
+	    <EditText
+	        android:id="@+id/pwdText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:selectAllOnFocus="true"
+	        android:password="true"
+	         android:background="@drawable/bg_border"/>
+	 </TableRow>
+	 <TableRow>
+	    <TextView 
+	        android:id="@+id/phone"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="电话号码:"
+	         android:background="@drawable/bg_border"/>
+	    <EditText
+	        android:id="@+id/phoneText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:selectAllOnFocus="true"
+	        android:phoneNumber="true"
+	         android:background="@drawable/bg_border"/>
+	 </TableRow>
+	 <Button
+	     android:id="@+id/btn"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:text="注册"
+	     />
+</TableLayout>

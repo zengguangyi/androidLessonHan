@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- GridView的间距 -->
+    <dimen name="spacing">80dp</dimen>
+    <!-- GridView的宽度、高度 -->
+    <dimen name="cell_width">60dp</dimen>
+    <dimen name="cell_height">60dp</dimen>
+    <!-- 定义字体大小 -->
+    <dimen name="font_size">18pt</dimen>
+
+</resources>

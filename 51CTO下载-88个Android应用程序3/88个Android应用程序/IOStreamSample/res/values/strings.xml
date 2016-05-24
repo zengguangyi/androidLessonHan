@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, IOStreamSampleActivity!</string>
+    <string name="app_name">IOStreamSample</string>
+<string name="read">读取数据</string>
+<string name="write">写入数据</string>
+</resources>

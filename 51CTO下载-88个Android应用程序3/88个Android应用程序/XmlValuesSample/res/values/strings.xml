@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, XmlValuesSampleActivity!</string>
+    <string name="app_name">XmlValuesSample</string>
+    <string name="title">字符串、数字、尺寸资源</string>
+    <string name="s1">0F0</string>
+    <string name="s2">C0D</string>
+    <string name="s3">ABC</string>
+    <string name="s4">0F2</string>
+    <string name="s5">222</string>
+    <string name="s6">333</string>
+    <string name="s7">DDF</string>
+    <string name="s8">FF0</string>
+    <string name="s9">00F</string>
+
+</resources>

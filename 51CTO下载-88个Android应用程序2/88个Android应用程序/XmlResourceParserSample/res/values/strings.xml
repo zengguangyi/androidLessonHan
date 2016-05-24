@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, XmlResourceParserSampleActivity!</string>
+    <string name="app_name">XmlResourceParserSample</string>
+	<string name="btnmsg">解析XML文件</string>
+</resources>

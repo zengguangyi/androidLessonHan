@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableRow>
+    	<TextView android:id="@+id/tv1"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="性别"/>    
+    	 <RadioGroup android:orientation="horizontal"
+    	     android:layout_gravity="center_horizontal">
+    	     <RadioButton android:layout_width="wrap_content"
+    	         android:layout_height="wrap_content"
+    	         android:text="男"/>
+    	     <RadioButton android:layout_width="wrap_content"
+    	         android:layout_height="wrap_content"
+    	         android:text="女"/>
+    	     </RadioGroup>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="爱好"/>
+        <LinearLayout android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    	     <CheckBox android:layout_width="wrap_content"
+    	         android:layout_height="wrap_content"
+    	         android:text="java"
+    	         android:checked="true"
+    	         />
+    	     <CheckBox android:layout_width="wrap_content"
+    	         android:layout_height="wrap_content"
+    	         android:text="javaEE"/>
+    	     <CheckBox android:layout_width="wrap_content"
+    	         android:layout_height="wrap_content"
+    	         android:text="android"/>
+            </LinearLayout>
+        
+        </TableRow>
+</TableLayout>

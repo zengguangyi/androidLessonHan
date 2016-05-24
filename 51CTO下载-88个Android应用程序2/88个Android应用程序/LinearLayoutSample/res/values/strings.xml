@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LinearLayoutSampleActivity!</string>
+    <string name="app_name">LinearLayoutSample</string>
+	<string name="btn1">btn1</string>
+	<string name="btn2">btn2</string>
+	<string name="btn3">btn3</string>
+	<string name="btn4">btn4</string>
+	<string name="btn5">btn5</string>
+</resources>

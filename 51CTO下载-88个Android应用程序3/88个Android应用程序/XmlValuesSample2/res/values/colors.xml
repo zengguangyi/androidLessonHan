@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="c1">#0F0</color>
+    <color name="c2">#C0D</color>
+    <color name="c3">#ABC</color>
+    <color name="c4">#0F2</color>
+    <color name="c5">#222</color>
+    <color name="c6">#333</color>
+    <color name="c7">#DDF</color>
+    <color name="c8">#FF0</color>
+    <color name="c9">#00F</color>
+
+</resources>

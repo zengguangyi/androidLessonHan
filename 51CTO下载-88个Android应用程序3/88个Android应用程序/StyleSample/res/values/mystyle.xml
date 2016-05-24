@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="stly1">
+	    <item name="android:textSize">20pt</item>
+	    <item name="android:textColor">#fff</item>
+	</style>
+	<style name="stly2" parent="@style/stly1">
+	    <item name="android:padding">8dp</item>
+	    <item name="android:background">#ee6</item>
+	    <item name="android:textColor">#f11</item>
+	</style>
+</resources>
